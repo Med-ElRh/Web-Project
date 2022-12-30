@@ -60,7 +60,7 @@ ul.navbar-nav a:focus {
 }
 
 .navbar-item a{
-    color:#F1F7B5;
+    color:white;
 }
 
 .navbar-toggler {
@@ -73,7 +73,7 @@ ul.navbar-nav a:focus {
 }
 
 .dropdown a {
-    color:#F1F7B5;
+    color:white;
 }
 
 .navbar-toggler.navbar-toggler-icon {
@@ -102,7 +102,7 @@ ul.navbar-nav a:focus {
     font-family:'Kalam', cursive;
     font-weight:700;
     text-transform: uppercase;
-    color:#F1F7B5;
+    color:white;
     margin-left:25px;
     margin-right:0;
     font-size:30px;
@@ -110,11 +110,11 @@ ul.navbar-nav a:focus {
 }
 
 .navbar .navbar-brand:hover {
-    color:#F1F7B5;
+    color:white;
 }
 
 .navbar .navbar-brand:focus {
-    color:#F1F7B5;
+    color:white;
 }
 
 .subtitle_ {
@@ -152,7 +152,7 @@ ul.navbar-nav a:focus {
         display:inline-block;
         color: rgb(255, 255, 255);
         margin-top:60px;
-        font-size:650%;
+        font-size:450%;
         text-transform:uppercase;
         margin-bottom: 90px;
     }
@@ -174,18 +174,20 @@ ul.navbar-nav a:focus {
 .welcomeDescription {
     display:inline-block;
     width:100%;
-    color:#F1F7B5;
+    color:white;
     font-family:'Montserrat', sans-serif;
     font-weight:500;
     font-size:20px;
     width:70%;
     line-height:2.3;
     margin-bottom: 80px;
+    margin-left:25px;
 
 }
 
 
 .learnmore_ {
+    width:26%;
     color:white;
     padding:20px;
     text-transform:uppercase;
@@ -204,12 +206,14 @@ ul.navbar-nav a:focus {
     .container{
         width:100%;
     }
+    
     .homepage_ {
         text-align:center;
     }
     .learnmore_ {
         margin-left:auto;
         margin-right:auto;
+        width:60%;
     }
 }
 
@@ -256,11 +260,13 @@ ul.navbar-nav a:focus {
     align-items:center;
     width:500px;
     height:400px;
-    margin: 0 3em;
+    margin-left: 3em;
+    margin-right:3em;
+    margin-top:auto;
+    margin-bottom:20px;
     color:white;
     position:relative;
     transition: position 1s;
-    transition-timing-function: ease-in-out;
     border: 1px solid rgba(43,42,42,0.32);
 }
 
@@ -324,4 +330,18 @@ hr {
 
 .contactLinks a {
     margin-right:20px;
+}
+
+@media screen and (max-width:575px) {
+    .carouselTitle_ {
+        text-align: center;
+        padding-bottom:15px;
+    }
+}
+
+.kitsune_ {
+    font-family:'Montserrat',sans-serif;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:1.5rem;
 }
